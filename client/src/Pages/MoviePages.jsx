@@ -178,7 +178,7 @@ const MoviePage = () => {
                   </div>
                   <p className="text-gray-300">{r.reviewText}</p>
                   <p className="text-gray-400 text-sm mt-1">
-                    — {r.userId.name} on {new Date(r.createdAt).toLocaleString()}
+                    — {r.userId?.name || "User"} on {new Date(r.createdAt).toLocaleString()}
                   </p>
                 </CardContent>
               </Card>

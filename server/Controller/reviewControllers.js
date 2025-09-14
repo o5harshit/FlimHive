@@ -1,6 +1,6 @@
 import MoviesModel from "../Models/moviesModel.js";
 import ReviewModel from "../Models/reviewModel.js";
-import UserModel from "../Models/UserModel.js";
+import UserModel from "../Models/userModel.js";
 
 
 export const addReview = async (req, res) => {
